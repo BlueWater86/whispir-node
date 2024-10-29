@@ -115,9 +115,7 @@ class DistributionListsApi {
             method: 'DELETE',
             qs: localVarQueryParameters,
             headers: localVarHeaderParams,
-            uri: localVarPath,
-            useQuerystring: this.useQuerystring,
-            json: true,
+            uri: localVarPath
         };
         let authenticationPromise = Promise.resolve();
         let interceptorPromise = authenticationPromise;
