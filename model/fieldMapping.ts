@@ -16,6 +16,10 @@ export type FieldMappingWrite = {
     */
     'workMobilePhone1': string;
     /**
+    * The email address of the Contact. Value of this field is used to map the field within the newly created resource.
+    */
+    'workEmailAddress1': string;
+    /**
     * The country field of the contact. The value of this field is used to map to the field within the newly created contact.
     */
     'workCountry': string;
@@ -41,6 +45,10 @@ export class FieldMapping {
     * The mobile phone number of the Contact. Value of this field is used to map the field within the newly created resource.
     */
     'workMobilePhone1': string;
+    /**
+    * The email address of the Contact. Value of this field is used to map the field within the newly created resource.
+    */
+    'workEmailAddress1': string;
     /**
     * The country field of the contact. The value of this field is used to map to the field within the newly created contact.
     */
@@ -69,6 +77,11 @@ export class FieldMapping {
             "type": "string"
         },
         {
+            "name": "workEmailAddress1",
+            "baseName": "workEmailAddress1",
+            "type": "string"
+        },
+        {
             "name": "workCountry",
             "baseName": "workCountry",
             "type": "string"
@@ -77,7 +90,8 @@ export class FieldMapping {
             "name": "timezone",
             "baseName": "timezone",
             "type": "string"
-        }    ];
+        }    
+    ];
 
     static getAttributeTypeMap() {
         return FieldMapping.attributeTypeMap;
