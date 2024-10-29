@@ -46,7 +46,7 @@ type ContactListParams = {
     /**
     * An object that represents contact fields with values to search on Example: { firstName: "Sam" }
     */
-    queryFields: Partial<Contact>;
+    queryFields?: Partial<Contact>;
     /**
     * Custom Fields
     */
