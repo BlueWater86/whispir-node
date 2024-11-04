@@ -38,8 +38,8 @@ FieldMapping.attributeTypeMap = [
         "type": "string"
     },
     {
-        "name": "organizationName",
-        "baseName": "organizationName",
+        "name": "companyName",
+        "baseName": "companyName",
         "type": "string"
     },
     {
