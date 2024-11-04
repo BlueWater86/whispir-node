@@ -11,6 +11,10 @@ export type FieldMappingWrite = {
     * The mobile phone number of the Contact. Value of this field is used to map the field within the newly created resource.
     */
     'workMobilePhone1': string;
+    'personalMobilePhone1': string;
+    'jobTitle': string;
+    'organizationName': string;
+
     /**
     * The email address of the Contact. Value of this field is used to map the field within the newly created resource.
     */
@@ -40,6 +44,9 @@ export declare class FieldMapping {
     * The mobile phone number of the Contact. Value of this field is used to map the field within the newly created resource.
     */
     'workMobilePhone1': string;
+    'personalMobilePhone1': string;
+    'jobTitle': string;
+    'organizationName': string;
     /**
     * The email address of the Contact. Value of this field is used to map the field within the newly created resource.
     */
