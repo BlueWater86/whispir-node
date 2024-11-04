@@ -28,6 +28,21 @@ FieldMapping.attributeTypeMap = [
         "type": "string"
     },
     {
+        "name": "personalMobilePhone1",
+        "baseName": "personalMobilePhone1",
+        "type": "string"
+    },
+    {
+        "name": "jobTitle",
+        "baseName": "jobTitle",
+        "type": "string"
+    },
+    {
+        "name": "organizationName",
+        "baseName": "organizationName",
+        "type": "string"
+    },
+    {
         "name": "workEmailAddress1",
         "baseName": "workEmailAddress1",
         "type": "string"
