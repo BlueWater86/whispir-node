@@ -15,6 +15,10 @@ export type ContactWrite = {
     */
     'workMobilePhone1': string;
     /**
+    * The primary work mobile number of the contact.
+    */
+    'personalMobilePhone1': string;
+    /**
     * The primary work email address of the contact.
     */
     'workEmailAddress1': string;
@@ -255,6 +259,7 @@ export declare class Contact {
     * The primary work mobile number of the contact.
     */
     'workMobilePhone1': string;
+    'personalMobilePhone1': string;
     /**
     * The primary work email address of the contact.
     */
