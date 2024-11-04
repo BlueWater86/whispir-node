@@ -13,7 +13,7 @@ export type FieldMappingWrite = {
     'workMobilePhone1': string;
     'personalMobilePhone1': string;
     'jobTitle': string;
-    'organizationName': string;
+    'companyName': string;
 
     /**
     * The email address of the Contact. Value of this field is used to map the field within the newly created resource.
@@ -46,7 +46,7 @@ export declare class FieldMapping {
     'workMobilePhone1': string;
     'personalMobilePhone1': string;
     'jobTitle': string;
-    'organizationName': string;
+    'companyName': string;
     /**
     * The email address of the Contact. Value of this field is used to map the field within the newly created resource.
     */
